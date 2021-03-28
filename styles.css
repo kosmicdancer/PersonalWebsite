@@ -21,8 +21,9 @@ html {
     background-color: white;
     border-radius: 150px;
     text-align: center;
+    text-justify: distribute;
     /* font-weight: bold; */
-    padding: 5px;
+    padding: 10px;
 
     /* flex: 1; changes flex-shrink and flex-basis */
     min-width: 300px;
