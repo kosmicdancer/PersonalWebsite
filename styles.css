@@ -2,19 +2,19 @@ html {
     background : antiquewhite
 }
 *, *::after, *::before {
-    margin: 10;
+    margin: 10px;
     padding: 10px;
   }
   
   .card-container {
     background-color: antiquewhite;
-    height: 1000px;
-    width: 90%;
+    height: 70%;
+    width: 70%;
    
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    /* align-items: flex-start; */
+    justify-content: center;
+    align-items: center;
   }
   
   .card {
@@ -47,11 +47,7 @@ html {
   .card-4 {
     align-self: flex-end;
   }
-/* .card {
-    background:ivory;
-    width: 250px;
-    height: 400px;
-    padding: 10px;
-    border: dotted 3px;
-    border-radius: 10px;
-} */
+
+.contact {
+    align-items: baseline;
+}
