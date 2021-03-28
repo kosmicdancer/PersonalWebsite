@@ -67,7 +67,7 @@ for (i = 0; i < cities.length; i++) {
 
 // appends created cards to cards-container for each object in cities array
 
-const cardContainer = document.getElementsByClassName("card-container")[0]
+const cardsContainer = document.getElementsByClassName("cards-container")[0]
 
 // for (i = 0; i < cities.length; i++) {
 //   const card = createCardFromCity(cities[i])
@@ -79,5 +79,4 @@ const cardContainer = document.getElementsByClassName("card-container")[0]
 // cities.forEach(city => {
 //   const card = createCardFromCity(city)
 //   cardsContainer.appendChild(card)
-// })
-
+//}
