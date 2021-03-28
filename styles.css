@@ -8,8 +8,8 @@ html {
   
   .card-container {
     background-color: antiquewhite;
-    height: 500px;
-  
+    height: 1000px;
+   
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -17,18 +17,19 @@ html {
   
   .card {
     background-color: white;
-    border-radius: 15px;
-    /* text-align: center; */
-    font-weight: bold;
-    padding: 10px;
-  
+    border-radius: 150px;
+    text-align: center;
+    /* font-weight: bold; */
+    padding: 5px;
+
     /* flex: 1; changes flex-shrink and flex-basis */
-    min-width: 150px;
-    /* min-height: 200px; */
+    min-width: 300px;
+    min-height: 300px;
+    /* flex-grow: 50%; */
     
-    display: flex;
+    /* display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: flex-start; */
   }
   
   /* .card-1 {
