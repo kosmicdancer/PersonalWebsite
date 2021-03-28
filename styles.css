@@ -6,4 +6,7 @@ html {
     width: 250px;
     height: 500px;
     padding: 10px;
+    border: dotted 3px;
+    border-radius: 10px;
+
 }
