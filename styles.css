@@ -8,11 +8,11 @@ html {
   
   .card-container {
     background-color: antiquewhite;
-    height: 1000px;
+    height: 500px;
   
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
   
   .card {
@@ -31,15 +31,15 @@ html {
   }
   
   .card-1 {
-    background-color: lightpink;
+    background-color: lightsalmon;
   }
   
   .card-2 {
-    background-color: lightskyblue;
+    background-color: khaki;
   }
   
   .card-3 {
-    background-color: lightsalmon;
+    background-color: rgb(125, 151, 136);
   }
 /* .card {
     background:ivory;
