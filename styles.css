@@ -1,3 +1,9 @@
 html {
-    background : rgb(219, 209, 200)
+    background : rgb(219, 209, 200);
+}
+.card {
+    background:ivory;
+    width: 250px;
+    height: 500px;
+    padding: 10px;
 }
