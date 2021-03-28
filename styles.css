@@ -11,26 +11,27 @@ html {
     height: 500px;
   
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
   }
   
   .card {
-    text-align: center;
-    font-size: 25px;
+    background-color: white;
+    border-radius: 15px;
+    /* text-align: center; */
     font-weight: bold;
-    padding: 20px;
+    padding: 10px;
   
     /* flex: 1; changes flex-shrink and flex-basis */
     min-width: 150px;
-    min-height: 200px;
+    /* min-height: 200px; */
     
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
   
-  .card-1 {
+  /* .card-1 {
     background-color: lightsalmon;
   }
   
@@ -40,7 +41,7 @@ html {
   
   .card-3 {
     background-color: rgb(125, 151, 136);
-  }
+  } */
 /* .card {
     background:ivory;
     width: 250px;

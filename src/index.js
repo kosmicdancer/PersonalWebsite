@@ -1,2 +1,2 @@
 // alert ("Welcome! (^_^)");
-//const card = 
+const card =
