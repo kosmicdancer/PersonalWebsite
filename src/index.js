@@ -1,21 +1,44 @@
 // alert ("Welcome! (^_^)");
+const jobs = [
+    {job: "CAD (Computer Aided Designer)", jobRoll: "Rendering sketches into Graphic programs at Fashion company" },
+    {job: "Retoucher", jobRoll: "Retouch photos for online catalogs"},
+    {job: "Fron-end Designer", jobRoll: "Create Front-end design for website"},
+    {job: "Full-Stack Web Developer", jobRoll: "Start learning coding from scratch"},
+]
+const cards = document.querySelectorAll(".card")
+for(i = 0; i < cards.length; i++) {
+  cards[i].remove()
 
-{
-const card = document.getElementsByClassName('card')[0]
-const cardTitle = card.getElementsByTagName('h3')[0]
-const description = card.getElementsByTagName('p')[0]
-
-cardTitle.innerText = "Debut as a CAD(Computer Aided Design) Designer in US"
-description.innerText = "Started a position at Women's Fashion company"
+  function createCardFromJobs(jobs) {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = 
+    `<h3>${jobs.job}</h3>
+    <p>${jobs.jobRoll}</p>
+    `
+    return card
 }
-{
-const card = document.getElementsByClassName('card card-1')[1]
-const cardTitle = card.getElementsByTagName('h3')[1]
-const description = card.getElementsByTagName('p')[1]
+const cardsContainer = document.getElementsByClassName("cards-container")[0]
 
-cardTitle.innerText = "Started Front-End Web Design"
-description.innerText = "Created Web sites using self service template"
+for (i = 0; i < cities.length; i++) {
+  const card = createCardFromJobs(jobs[i])
+  cardsContainer.appendChild(card)
 }
+// const card = document.getElementsByClassName('card')[0]
+// const cardTitle = card.getElementsByTagName('h3')[0]
+// const description = card.getElementsByTagName('p')[0]
+
+// cardTitle.innerText = "Debut as a CAD(Computer Aided Design) Designer in US"
+// description.innerText = "Started a position at Women's Fashion company"
+// }
+// {
+// const card = document.getElementsByClassName('card card-1')[1]
+// const cardTitle = card.getElementsByTagName('h3')[1]
+// const description = card.getElementsByTagName('p')[1]
+
+// cardTitle.innerText = "Started Front-End Web Design"
+// description.innerText = "Created Web sites using self service template"
+// }
 
 
 
