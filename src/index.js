@@ -1,13 +1,15 @@
 // alert ("Welcome! (^_^)");
 const jobs = [
     {job: "CAD (Computer Aided Designer)", jobRoll: "Rendering sketches into Graphic programs at Fashion company" },
-    {job: "Retoucher", jobRoll: "Retouch photos for online catalogs"},
-    {job: "Fron-end Designer", jobRoll: "Create Front-end design for website"},
+    {job: "Retoucher", jobRoll: "Retouch model photos for catalogs, trade shows, online shopping sites of Fashion brands"},
+    {job: "Front-end Designer", jobRoll: "Front-end web design for independent Fashion designers, Musicians"},
+    {job: "Graphic Designer", jobRoll: "Create Graphic collaterals for Fashion branding"},
     {job: "Full-Stack Web Developer", jobRoll: "Start learning coding from scratch"},
+    
 ]
 const cards = document.querySelectorAll(".card")
 for(i = 0; i < cards.length; i++) {
-  cards[i].remove()
+  cards[i].remove()}
 
   function createCardFromJobs(jobs) {
     const card = document.createElement("div");
@@ -20,7 +22,7 @@ for(i = 0; i < cards.length; i++) {
 }
 const cardsContainer = document.getElementsByClassName("cards-container")[0]
 
-for (i = 0; i < cities.length; i++) {
+for (i = 0; i < cards.length; i++) {
   const card = createCardFromJobs(jobs[i])
   cardsContainer.appendChild(card)
 }
@@ -67,7 +69,7 @@ for (i = 0; i < cities.length; i++) {
 
 // appends created cards to cards-container for each object in cities array
 
-const cardsContainer = document.getElementsByClassName("cards-container")[0]
+//const cardsContainer = document.getElementsByClassName("cards-container")[0]
 
 // for (i = 0; i < cities.length; i++) {
 //   const card = createCardFromCity(cities[i])

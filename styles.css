@@ -2,52 +2,65 @@ html {
     background : antiquewhite
 }
 *, *::after, *::before {
-    margin: 10px;
+    margin: 10px; 
     padding: 10px;
   }
-  
+
+  .header {
+    font-style: strong;
+  }
+
   .cards-container {
     background-color: antiquewhite;
-    height: 70%;
-    width: 70%;
+    height: max-content;
+    width: max-content;
    
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-items: space-around; */
+    /* align-content: auto;  */
+    /* align-items: center; */
+    align-items: auto;
+  
   }
   
   .card {
     background-color: white;
-    border-radius: 150px;
+    border-radius: 50%;
     text-align: center;
-    text-justify: distribute;
-    /* font-weight: bold; */
-    padding: 10px;
+    vertical-align: middle;
+    padding: 30px;
 
     /* flex: 1; changes flex-shrink and flex-basis */
-    min-width: 300px;
+    /* width: 300px;
+    height: 300px; */
+    max-width: 300px;
     min-height: 300px;
-    align-self: flex-start;
-    
-    
   }
-  
   .card-1 {
-    align-self: flex-end;
-  }
-  
-  .card-2 {
+    /* justify-self: flex-end; */
     align-self: flex-start;
+  }
+
+  .card-2 {
+      /* justify-self: flex-start; */
+    align-self: flex-end;
   }
   
   .card-3 {
+      /* justify-self: flex-end; */
+    align-self: flex-start;
+  }
+  
+  .card-4 {
+    /* justify-self: flex-start; */
     align-self: flex-end;
+  }
+  .card-5 {
+    /* justify-self: flex-start; */
+    align-self: flex-start;
   }
 
-  .card-4 {
-    align-self: flex-end;
-  }
 
 .contact {
     align-items: baseline;
